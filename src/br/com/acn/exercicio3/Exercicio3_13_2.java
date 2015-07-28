@@ -9,7 +9,7 @@ public class Exercicio3_13_2 {
 			soma += i;
 			System.out.println(soma);
 		}
-		//--
+		// --
 
 	}
 

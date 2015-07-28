@@ -8,7 +8,7 @@ public class Exercicio3_13_4 {
 
 	}
 
-	//Funcao fatorial recursiva
+	// Funcao fatorial recursiva
 	public static double fatorial(double x) {
 		if (x != 1) {
 			return x * fatorial(x - 1);

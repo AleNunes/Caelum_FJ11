@@ -12,6 +12,7 @@ public class Exercicio3_13_6 {
 
 	}
 
+	// Fibonacci recursivo
 	public static double fibonacci(double x) {
 		if (x > 2) {
 			return fibonacci(x - 1) + fibonacci(x - 2);
