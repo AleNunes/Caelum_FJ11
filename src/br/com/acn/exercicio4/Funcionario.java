@@ -4,13 +4,22 @@ public class Funcionario {
 
 	private String nome;
 	private String depto;
-	private double salario;
+	private double salario =0;
 	private String dataEntrada;
 	private String rg;
 	private boolean estaNaEmpresa;
 
+	public Funcionario(String nome){
+		this.setNome(nome);
+		this.setEstaNaEmpresa(true);
+	}
+	
+	public Funcionario(String nome, String depto){
+		this(nome);
+		this.setDepto(depto);
+	}
+	
 	// GETs & SETs
-
 	public String getNome() {
 		return nome;
 	}
